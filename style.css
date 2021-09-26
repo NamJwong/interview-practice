@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "DOSGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "DOSGothic";
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-item {
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+}
+
+.container-left {
+  width: 65%;
+  float: left;
+}
+
+.container-right {
+  width: 35%;
+  float: right;
+}
+
+#item-question-list {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 50px;
+}
+
+.tab-buttons {
+  display: flex;
+}
+
+.tab-buttons button {
+  padding: 6px;
+  border: 0;
+}
+
+.tab-selected {
+  background-color: rgb(255, 255, 255);
+}
+
+.tab-unselected {
+  background-color: silver;
+}
+
+#question-tab {
+  width: 800px;
+  height: 600px;
+}
+
+.container-questions {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.question-input {
+  width: 750px;
+  height: 25px;
+  font-size: 15px;
+  font-family: "DungGeunMo";
+}
+
+.question-list {
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.question-list li {
+  word-wrap: break-word;
+}
+
+.scroll {
+  width: 750px;
+  height: 550px;
+  overflow-y: scroll;
+  margin: 10px;
+}
+
+.radio-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  margin: 10px 0;
+}
+
+.radio-box h4 {
+  margin-right: 10px;
+}
+
+#interview-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 30px;
+}
+
+#interview-buttons button {
+  padding: 15px;
+  font-size: 15px;
+}
+
+#item-setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#interview-box button {
+  margin-top: 10px;
+}
+
+#interview-box h3 {
+  margin-top: 10px;
+}
+
+#help {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  width: 600px;
+}
+
+.background-shown {
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+#help-button {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#help-list li {
+  padding-top: 10px;
+}
+
+#help-list {
+  margin-right: 10px;
+}
