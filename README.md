@@ -2,6 +2,6 @@
 
 SOPT 29기 웹파트 YB를 지원하면서 실제로 필요에 의하여 만들었던 토이 프로젝트입니다!
 
-[보러 가기](https://namjwong.github.io/interview-practice/)
+[보러 가기](https://namjwong.github.io/interview-simulator/)
 
 
